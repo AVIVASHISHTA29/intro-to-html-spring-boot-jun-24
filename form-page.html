@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Page</title>
+    <meta name="description" content="This is my form page" />
+    <link rel="stylesheet" href="./form-styles.css" />
+  </head>
+  <body>
+    <a href="./index.html"><button>Go Back to Home</button></a>
+    <h1>THIS IS MY FORM PAGE</h1>
+
+    <audio controls>
+      <source src="./audios/music.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <form method="POST">
+      <!-- <img src="./images/search.svg" /> -->
+      <input type="text" class="my-input" placeholder="Enter Name" required />
+      <br /><br />
+      <input
+        min="10"
+        max="100"
+        type="number"
+        class="my-input"
+        placeholder="Enter Age"
+        required
+      />
+      <br /><br />
+      <input
+        type="date"
+        class="my-input"
+        placeholder="Enter date of birth"
+        required
+      />
+      <br /><br />
+      <!-- <button type="submit">Submit Form</button> -->
+      <input type="submit" value="Submit Form" class="my-button" />
+    </form>
+  </body>
+</html>

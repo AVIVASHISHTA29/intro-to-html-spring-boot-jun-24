@@ -1,0 +1,27 @@
+button {
+  padding: 10px;
+}
+form {
+  width: 600px;
+  border: 1px solid #000;
+  padding: 36px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.my-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.my-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 20px;
+}
